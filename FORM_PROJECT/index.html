@@ -7,6 +7,40 @@
     <title>venda de carros</title>
   </head>
   <body>
-    <h2>Hello world</h2>
+    <div class="container">
+      <div class="header">
+        <h3>Cadastre seu veiculo para vender mais rápido!</h3>
+      </div>
+      <div class="form-container">
+        <div class="form-header">
+          <p>Formulário</p>
+        </div>
+        <div class="form-body">
+          <h1 class="form-title">Venda fácil seu carrro!</h1>
+          <p>
+            Descreva as caracteristicas e marque os atributos que o seu carro
+            possui.
+          </p>
+        </div>
+        <form>
+          <div class="box-input">
+            <label for="title"
+              >Título do anúncio <span class="required-field">*</span></label
+            >
+            <input
+              type="text"
+              name="title"
+              id="title"
+              class="block"
+              placeholder="um título para anunciar o seu carro"
+              minlength="1"
+              maxlength="30"
+              required
+            />
+          </div>
+          <input type="submit" value="enviar" />
+        </form>
+      </div>
+    </div>
   </body>
 </html>
